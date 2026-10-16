@@ -1,0 +1,28 @@
+- Apps: 
+    - Knicks App:
+        href: http://10.0.0.89
+        description: Custom Knicks Tracking App for the NBA Season
+        icon: mdi-basketball
+        server: my-docker
+        container: knicks-app-web
+
+- Infrastructure:
+    - Pi-hole:
+        href: http://10.0.0.89:8080/admin
+        description: Network- wide ad blocker on pi-hole
+        icon: pi-hole.png
+        server: my-docker
+        container: pihole
+    - Portainer:
+        href: https://10.0.0.89:9443
+        description: Docker management
+        icon: portainer.png
+        server: my-docker
+        container: portainer
+    - Uptime Kuma:
+        href: http://10.0.0.89:3001
+        description: Service monitoring
+        icon: uptime-kuma.png
+        server: my-docker
+        container: uptime-kuma
+

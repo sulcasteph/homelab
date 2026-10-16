@@ -1,0 +1,27 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/configs/info-widgets/
+
+- greeting: 
+    text_size: xl
+    text: Steph's Homelab! LETS DO THIS!
+
+- resources:
+    cpu: true
+    memory: true
+    disk: /
+    cputemp: true
+    uptime: true
+    units: imperial
+
+- openmeteo:
+    label: Hackensack
+    latitude: 40.8859
+    longitude: -74.0435
+    units: imperial
+    cache: 5
+
+- datetime:
+    text_size: xl
+    format:
+      timeStyle: short

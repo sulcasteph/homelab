@@ -1,0 +1,18 @@
+title: Steph's Homelab
+theme: dark
+color: neutral
+headerStyle: clean
+statusStyle: dot
+hideVersion: true
+cardBlur: sm
+bookmarksStyle: icons
+background:
+  image: /images/bg.jpg
+  brightness: 90
+layout:
+  Apps:
+    style: row
+    columns: 4
+  Infrastructure:
+    style: row
+    columns: 4
